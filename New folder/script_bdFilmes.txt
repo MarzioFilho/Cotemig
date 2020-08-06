@@ -1,0 +1,48 @@
+DROP DATABASE bancoFilme;
+
+CREATE DATABASE bancoFilme;
+
+USE bancoFilme;
+
+CREATE TABLE usuario
+(
+	idUsuario int auto_increment,
+	nomeUsuario varchar(60) not null,
+	senhaUsuario varchar(30) not null,
+	primary key(idUsuario)
+);
+
+create table genero
+(
+	idgenero int not null auto_increment,
+	descricao varchar(200) not null,
+	primary key(idgenero)
+);
+
+CREATE TABLE filme
+(
+	idFilme int auto_increment,
+	nomeFilme varchar(60) not null,
+	generoFilme int not null,
+	classificacao char(2) not null,
+	sinopse text not null,
+	dtLancamento date not null,
+	primary key(idFilme),
+	foreign key(generoFilme)
+		references Genero(idgenero)
+);
+
+
+INSERT INTO usuario values(NULL, 'carla', '123456');
+INSERT INTO usuario values(NULL, 'teste', '123');
+
+insert into genero values(null,"Comédia");
+insert into genero values(null,"Romance");
+insert into genero values(null,"Aventura");
+insert into genero values(null,"Ficção Científica");
+insert into genero values(null,"Terror");
+insert into genero values(null,"Drama");
+
+INSERT INTO filme values(NULL, 'O Senhor dos Anéis', 3, 'L', 'Sauron planeja um grande ataque a Minas Tirith, capital de Gondor', '2003/12/25');
+INSERT INTO filme values(NULL, 'Um Sonho de Liberdade', 6, 'L', 'Em 1946, Andy Dufresne (Tim Robbins), um jovem e bem sucedido banqueiro, tem a sua vida radicalmente modificada ao ser condenado por um crime', '1995/01/25');
+INSERT INTO filme values(NULL, 'O Rei Leão', 3, 'L', 'Mufasa (voz de James Earl Jones), o Rei Leão, e a rainha Sarabi (voz de Madge Sinclair) apresentam ao reino o herdeiro do trono', '2011/08/26');

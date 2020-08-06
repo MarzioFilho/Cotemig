@@ -1,0 +1,295 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	
+	<body>
+		<div id="mae">
+			<form name="formulario" action="" method="_GET">
+			
+				<div id="titulo">
+					<h1>Requerimento de Alistamento Eleitoral</h1>
+				</div>
+				
+				<div id="rae">
+					<p>RAE</p>
+					<input type="number" name="RAE">
+						<br>
+				</div>
+				
+				<div id="operacao">
+					<p>Operação</p>
+					<input type="radio" name="operacao" value="Alistamento">Alistamento
+					<input type="radio" name="operacao" value="Revisão">Revisão
+						<br>
+					<input type="radio" name="operacao" value="2°via">2°via
+					<input type="radio" name="operacao" value="Transferência">Transferência
+						<br>	
+				</div>
+				
+				<div id="irmao">
+					<p>Possui irmão gêmeo?</p>
+					<input type="radio" name="irmao" value="Sim">Sim
+					<input type="radio" name="irmao" value="Não">Não
+						<br>
+				</div>
+				
+				<div id="numeroins">
+					<p>Número de inscrição</p>
+							<br>
+						<p>Cole aqui a etiqueta somente quando se tratar de 
+						operação de alistamento.
+						Para os demais casos, preencha com o número de inscrição
+						do eleitor.</p>
+					<input type="number" name="NumInscricao">
+						<br>
+				</div>
+				
+				<div id="estado">
+					<p>UF (Estado)</p>
+					<input type="text" name="uf">
+						<br>
+				</div>
+				
+				<div id="codmunicipio">
+					<p>Código Município</p>
+					<input type="number" name="codMunicipio">
+						<br>
+				</div>
+				
+				<div id="zona">
+					<p>Zona eleitoral</p>
+					<input type="number" name="ZonaElei">
+						<br>
+				</div>
+				
+				<div id="codLocal">
+					<p>Código do Local de Votação</p>
+					<input type="number" name="LocalVot">
+						<br>
+				</div>
+				
+				<div id="localvot">
+					<p>Local de Votação</p>
+					<input type="text" name="LocalVota">
+						<br>
+				</div>
+				
+				<div id="nomereq">
+					<p>Nome do Requerente</p>
+					<input type="text" name="NomeReq">
+						<br>
+				</div>
+				
+				<div id="sexo">
+					<p>Sexo</p>
+					<input type="radio" name="sexo" value="Maculino">Maculino
+					<input type="radio" name="sexo" value="Feminino">Feminino
+						<br>
+				</div>
+				
+				<div id="estado">
+					<p>Estado Civil</p>
+					<input type="radio" name="estado" value="Solteiro">Solteiro
+					<input type="radio" name="estado" value="Viúvo">Viúvo
+					<input type="radio" name="estado" value="Divorciado(a)">Divorciado(a)
+						<br>
+					<input type="radio" name="estado" value="Casado">Casado
+					<input type="radio" name="estado" value="Separado(a) Judicialmente">Separado(a) Judicialmente
+						<br>
+				</div>
+				
+				<div id="Grau">
+					<p>Grau de instrução</p>
+					<input type="radio" name="escolaridade" value="analfabeto(a)">analfabeto(a)
+					<input type="radio" name="escolaridade" value="1°Grau Incompleto">1°Grau Incompleto
+					<input type="radio" name="escolaridade" value="2°Grau Incompleto">2°Grau Incompleto
+					<input type="radio" name="escolaridade" value="Superior Incompleto">Superior Incompleto
+						<br>
+					<input type="radio" name="escolaridade" value="Lê e escreve">Lê e escreve
+					<input type="radio" name="escolaridade" value="1°Grau Completo">1°Grau Completo
+					<input type="radio" name="escolaridade" value="2°Grau Completo">2°Grau Completo
+					<input type="radio" name="escolaridade" value="Superior Completo">Superior Completo
+						<br>
+				</div>
+				
+				<div id="CodMuniNasc">
+					<p>Código do Município de Nascimento</p>
+					<input type="number" name="codMunNasc">
+						<br>
+				</div>
+						
+				<div id="MuniNasc">
+					<p>Município de Nascimento</p>
+					<input type="text" name="MunNasc">
+						<br>
+				</div>
+				
+				<div id="UFMuniNasc">
+					<p>UF (Estado) do Município de Nascimento</p>
+					<input type="text" name="UFNasc">
+						<br>
+				</div>
+				
+				<div id="DTNasc">						
+					<p>Data Nascimento</p>
+					<input type="date" name="dataNasc">
+					<input type="radio" name="valor" value="Alteração">Alteração
+					<input type="radio" name="valor" value="Validação">Validação
+						<br>
+				</div>
+				
+				<div id="CodOcu">
+					<p>Código de Ocupação</p>
+					<input type="number" name="CodOcu">
+						<br>
+				</div>
+						
+				<div id="OcuPrinc">
+					<p>Ocupação Principal</p>
+					<input type="text" name="OcupaPrinc">
+						<br>
+				</div>
+						
+				<div id="Endereco">
+					<p>Endereço Completo</p>
+					<input type="text" name="enderecojunto">
+						<br>
+				</div>
+				
+				<div id="Tempo">						
+					<p>Tempo de Residência</p>
+					<input type="number" name="anos"> ANO(S)
+						<br>
+						<br>
+					<input type="number" name="mes"> MÊS(ES)
+						<br>
+				</div>
+				
+				<div id="Municipio">
+					<p>Município</p>
+					<input type="text" name="municipio">
+						<br>
+				</div>
+				
+				<div id="CEP">
+					<p>CEP</p>
+					<input type="number" name="cep">
+						<br>
+				</div>
+						
+				<div id="DDD">
+					<p>DDD/Telefone Para Contato</p>
+					<input type="text" name="ddd"> DDD
+						<br><br>
+					<input type="text" name="telefone"> TELFONE
+						<br>
+				</div>
+						
+				<div id="Nomeaae">
+					<p>Nome da Mãe (sem abreviaturas)</p>
+					<input type="text" name="NomeMae">
+						<br>
+				</div>
+				
+				<div id="Nomeaai">						
+					<p>Nome do Pai (Sem Abreviaturas)</p>
+					<input type="text" name="NomePai">
+						<br>
+				</div>
+						
+				<div id="InscriAss">
+					<p>Inscrição e assinatura do servidor do cartorio eleitoral</p>
+					<p>ATESTO O CORRETO PREENCHIMENTO DO REQUERIMENTO E QUE O
+					REQURENTE COMPROVOU SUA IDENTIDADE</p>
+						<br>
+					<p>Inscrição</p>
+					<input type="number" name="inscricaoNum">
+						<br>
+					<p>Assinatura</p>
+					<input type="text" name="assinatura">
+						<br>
+				</div>
+						
+				<div id="AssLocData">
+					<p>DECLARO, SOB PENAS DA LEI, SEREM VERDADEIRAS AS INFORMAÇÕES
+					PRESTADAS NESTE REQUERIMENTO</p>
+						<br>
+					<p>Local</p>
+					<input type="text" name="local">
+						<br>
+					<p>Data do Requerimento</p>
+					<input type="date" name="dataRequeri">
+						<br>
+					<p>Assinatura ou impressão digital do requerente</p>
+					<input type="text" name="assrequerente">
+						<br>
+				</div>
+				
+				<div id="Deferimento">						
+					<h2>PARA USO DO JUIZ ELEITORAL</h2>
+					<p>Deferimento</p>
+					<input type="radio" name="deferimento" value="defiro"> DEFIRO
+					<input type="radio" name="deferimento" value="indefiro"> INDEFIRO
+						<br>
+					<p>Data da decisão</p>
+					<input type="date" name="datadecisao">
+						<br>
+					<p>Assinatura do juiz eleitoral</p>
+					<input type="text" name="assJuiz">
+						<br>
+					<p>Motivos do indeferimento</p>
+					<input type="text" name="MotIndeferi">
+						<br>
+				</div>
+						
+				<div id="RequerenteNome">
+					<p>Nome do Requerente</p>
+					<input type="text" name="NomeReq">
+						<br>
+				</div>
+						
+				<div id="UFDoReq">
+					<p>UF</p>
+					<input type="text" name="ufreq">
+						<br>
+				</div>
+				
+				<div id="Operacao12">
+					<p>Operação</p>
+					<input type="radio" name="oper" value="alistamento"> Alistamento
+					<input type="radio" name="oper" value="transferencia"> Tranferência
+					<input type="radio" name="oper" value="revisao"> Revisão
+					<input type="radio" name="oper" value="segvia"> 2°Via
+						<br>
+				</div>
+						
+				<div id="Datafinal">
+					<p>Data</p>
+					<input type="date" name="dat">
+						<br>
+				</div>
+						
+				<div id="ssServidor">
+					<p>Assinatura do servidor do cartório eleitoral</p>
+					<input type="text" name="assserv">
+						<br>
+				</div>
+						
+				<div id="NumInscricaofinal">
+					<p>Número de inscrição</p>
+					<p>Cole aqui a etiqueta somente quando se tratar de 
+					operação de alistamento</p>
+					<p>Para os demais casos preencha com o número de 
+					inscrição do eleitor</p>
+					<input type="number" name="numinscri">
+						<br>
+				</div>
+						
+				<div id="rodape">
+					<p>ESTE PROTOCOLO SUBSTITUI O TÍTULO ELEITORAL PELO PRAZO DE 90(NOVENTA) DIAS</p>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

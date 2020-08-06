@@ -1,0 +1,11 @@
+H:\POO\frmGerNotaFiscal\frmGerNotaFiscal\bin\Debug\frmGerNotaFiscal.exe.config
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\bin\Debug\frmGerNotaFiscal.exe.config
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\bin\Debug\frmGerNotaFiscal.exe
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\bin\Debug\frmGerNotaFiscal.pdb
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\obj\Debug\frmGerNotaFiscal.csprojResolveAssemblyReference.cache
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\obj\Debug\frmGerNotaFiscal.frmGerNotaFiscal.resources
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\obj\Debug\frmGerNotaFiscal.Form2.resources
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\obj\Debug\frmGerNotaFiscal.Properties.Resources.resources
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\obj\Debug\frmGerNotaFiscal.csproj.GenerateResource.Cache
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\obj\Debug\frmGerNotaFiscal.exe
+C:\Users\Márcio Filho\Desktop\POO\aaaaaaaaa\frmGerNotaFiscal\frmGerNotaFiscal\obj\Debug\frmGerNotaFiscal.pdb
