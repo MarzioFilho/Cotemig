@@ -1,0 +1,183 @@
+drop database biblioteca;
+
+create database biblioteca;
+
+use biblioteca;
+
+create table livros(
+id int unsigned auto_increment not null,
+titulo varchar(150) not null,
+editora varchar(150) not null,
+autor varchar(150) not null,
+isbn bigint unsigned auto_increment not null,
+numero_de_paginas int unsigned not null,
+genero varchar(150) not null,
+best_seller boolean not null,
+primary key (id)
+);
+
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Turma da mônica', 'não sei', 'Maurício de Sousa', null, 150, 'Infantil', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'A Divina Comédia', 'Panini', 'Dante Alighieri', null, 150, 'Política', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Dom Casmurro', 'Saraiva', 'Machado de Assis', null, 150, 'Prosa', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Barquinho Amarelo', 'Não sei', 'Desconhecido', null, 150, 'Infantil', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Cinquenta tons de cinza', 'Panini', 'E.L James', null, 150, 'Ficção', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Harry Potter e a pedra filosofal', 'Saraiva', 'J.K Rowlings', null, 150, 'Ficção', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Harry Potter e a Câmara Secreta', 'Saraiva', 'J.K Rowlings', null, 150, 'Ficção', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Naruto Gold Edition', 'Panini', 'Masashi Kishimoto', null, 150, 'Mangá', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Mein Kampf', 'Saraiva', 'Adolf Hitler', null, 150, 'História/Política', 0);
+
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Livro qualquer', 'nenhuma', 'desconhecido', null, 150, 'sem genero', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'Mais um livro', 'Nenhuma', 'desconhecido', null, 150, 'sem genero', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'PELO AMOR DE INÊS PARA COM ISSO', 'Demorô Parabalar', 'Inês Brasil', null, 150, 'Sexo', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'K-pop', 'Editora koreana que eu não sei o nome', 'Khansei Mui To', null, 150, 'Teen', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'É OQ?', 'Não sei', 'Retardado do Isaac', null, 150, 'Besterol', 0);
+	
+insert into livros(id, titulo, editora, autor, isbn, numero_de_paginas, genero, best_seller)
+	values(null, 'TÁ PEGANDO FOGO BICHO', 'CHURRASQUEIRA', 'FAUSTÃO', null, 150, 'Incêndio', 0);
+
+	select * from livros;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 10;
+	
+update livros set titulo = "Quaquer",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 11;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 1;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 3;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 4;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 6;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 7;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 5;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 9;
+
+update livros set titulo = "Quaquer livro",
+	editor = "Não faço ideia", 
+	autor = "Royal Boçal",
+	numero_de_paginas = 200,
+	genero = "Feminino",
+	best_seller = 1
+	where id = 14;
+	
+	select * from livros;
+	
+delete from livros where id = 14;
+
+delete from livros where id = 5;
+
+delete from livros where id = 9;
+
+delete from livros where id = 7;
+
+delete from livros where id = 6;
+	
+	select * from livros;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
