@@ -1,0 +1,74 @@
+﻿.title {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.dropdownlist {
+    font-family: Arial;
+    background-color: #FFFFC0;
+    position: absolute;
+    left: 185px;
+    top: 174px;
+    width: 121px;
+    height: 22px;
+}
+
+.radiobutton {
+    font-family: Arial;
+}
+
+.textbox1 {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    font-family: Arial;
+    left: 185px;
+    background-color: #FFFFC0;
+    position: absolute;
+    width: 200px;
+}
+
+.textbox2 {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    font-family: Arial;
+    background-color: #FFFFC0;
+    position: absolute;
+    left: 185px;
+}
+
+.button1 {
+    font-family: Arial;
+    font-size: 12px;
+    font: bold;
+    background-color: #ff6a00;
+    border: 1px solid;
+    width: 90px;
+    height: 35px;
+}
+
+.button2 {
+    font-family: Arial;
+    font-size: 12px;
+    font: bold;
+    background-color: #b6ff00;
+    border: 1px solid;
+    width: 90px;
+    height: 35px;
+}
+
+.button3 {
+    font-family: Arial;
+    font-size: 12px;
+    font: bold;
+    background-color: #0094ff;
+    border: 1px solid;
+    width: 90px;
+    height: 35px;
+}
+
+.span {
+    font-family: Arial;
+    font-size: 14px;
+}
