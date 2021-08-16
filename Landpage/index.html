@@ -1,0 +1,125 @@
+<html>
+	<head>
+		<title>Landing Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="estilo.css">
+		<script language="javascript"> 
+
+			var countDownDate = new Date("Aug 1, 2021 12:00:00").getTime();
+			var x = 
+			setInterval
+			(
+				function() 
+				{
+					var now = new Date().getTime();
+					var distance = countDownDate - now;
+					var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+					var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+					var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+					var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+					document.getElementById("dias").innerHTML = days;
+					document.getElementById("horas").innerHTML = hours;
+					document.getElementById("minutos").innerHTML = minutes;
+					document.getElementById("segundos").innerHTML = seconds;
+					
+					if (distance < 0) 
+					{
+						clearInterval(x);
+						document.getElementById("dias").innerHTML = "EXPIRED";
+						document.getElementById("horas").innerHTML = "EXPIRED";
+						document.getElementById("minutos").innerHTML = "EXPIRED";
+						document.getElementById("segundos").innerHTML = "EXPIRED";
+					}
+				}, 
+				1000
+			);
+			
+			function download() 
+			{
+				var textToSave =form.nome.value + " - " + 
+								form.email.value;
+
+				var hiddenElement = document.createElement('a');
+
+				hiddenElement.href = 'data:attachment/text,' + encodeURI(textToSave);
+				hiddenElement.target = '_blank';
+				hiddenElement.download = 'myFile.txt';
+				hiddenElement.click();
+			}
+
+			
+		</script>
+	</head>
+	
+	<body class="body">
+		<div class="row">
+			<div class="column-2">
+				<div class="row">
+					<div class="column-1">
+						<br>
+						<div id="clockdiv" class="clockdiv d-flex-row">
+							<div class="clock-item">
+							  	<span class="days number" id="dias"></span>
+							  	<div class="smalltext">Dias</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-1">
+						<br>
+						<div id="clockdiv" class="clockdiv d-flex-row">
+							<div class="clock-item">
+								<span class="hours number" id="horas"></span>
+								<div class="smalltext">Hrs</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-1">
+						<br>
+						<div id="clockdiv" class="clockdiv d-flex-row">
+							<div class="clock-item">
+								<span class="minutes number" id="minutos"></span>
+								<div class="smalltext">Min</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-1">
+						<br>
+						<div id="clockdiv" class="clockdiv d-flex-row">
+							<div class="clock-item">
+								<span class="seconds number" id="segundos"></span>
+								<div class="smalltext">Seg</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="column-3">
+				<div class="form">
+					<form name="form">
+						<p class="titulo">Cadastre-se e descubra nosso catálogo!</p>
+							<br>
+						<p>Qual seu nome?</p>
+						<input type="text" name="nome" id="nome" required placeholder="Maria Isolda da Silva" class="form-control">
+							<br>
+						<p>Qual seu e-mail?</p>
+						<input type="email" name="email" id="email" required placeholder="Ex: teste@teste.com" class="form-control">
+							<br>
+						<p>34,5 X 2 ?</p>
+						<input type="text" name="val" placeholder="Ah vou adivinhar!" class="form-control">
+							<br>
+						<input type="button" id="enviar" name="enviar" value="Enviar" class="lead btn" onclick="download()">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
