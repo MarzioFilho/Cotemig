@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/10/2016, 17:08:57
+    Author     : Luiz
+*/
+.img-responsive{
+  background-color: #82442f;
+  padding-bottom: 0px;
+  padding-top: 0px;
+ background-color: #82442f;
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #601e15;
+}
+    .navbar-inverse{
+    background-color: #82442f;
+}
+.navbar-inverse .navbar-toggle:focus,
+´.navbar-inverse .navbar-toggle:hover {
+    background-color: #82442f;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+}
+
+.navbar-nav .open .dropdown-menu {
+    background-color: #fff;
+
+}
+.dropdown-menu{
+    background-color: #fff;
+}
+data-toogle{
+    background-color: #fff;
+    color:#000;
+}
+
+#myNavbar .navbar-nav>.open>a,
+#myNavbar .navbar-nav>.active>a {
+	background-color: #fff;
+	color: #000;
+
+}
+
+#bordas{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #b1b5bc;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    font-size: 18px;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand>li>a:focus, .navbar-inverse.navbar-brand>li>a:hover{
+    color: #b1b5bc;
+    background-color: transparent;    
+}
